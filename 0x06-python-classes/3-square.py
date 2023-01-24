@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 """square3.py
 """
-Square = __import__('3-square').Square
-
 class Square:
     """ A class that defines a square by its size
     """
