@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+""" swisj """
+   
 class MyList(list):
-    """ swisj """
-    """ Class that inherits the attributes references of class list
+ 
+""" Class that inherits the attributes references of class list
     Args:
         list: class list
     """
