@@ -1,16 +1,11 @@
 #!/usr/bin/python3
-""" swisj 
-"""
-   
-class MyList(list):
- 
-""" Class that inherits the attributes references of class list
+def lookup(obj):
+    """ Function that returns the list of available attributes
+        and methods of an object
     Args:
-        list: class list
+        obj: instance of the class
+    Returns:
+        List of attributes
     """
 
-    def print_sorted(self):
-        """ Method that prints the sorted list """
-        l_sorted = self.copy()
-        l_sorted.sort()
-        print(l_sorted)
+    return dir(obj)
